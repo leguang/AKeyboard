@@ -3,6 +3,8 @@
 [![Release](https://jitpack.io/v/leguang/ADialog.svg)](https://jitpack.io/#leguang/ADialog)
 
 AKeyboard是一个简单易用的自定义软键盘，利用KeyboardView配合xml来定制键盘内容。（欢迎Star一下）
+![](/gif/logo.png)
+
 ## 能做什么？([下载 apk](https://github.com/leguang/ADialog/blob/master/app-debug.apk))
 - **对于输入车牌号做了相应的逻辑适配**
 
