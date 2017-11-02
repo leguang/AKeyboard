@@ -5,7 +5,7 @@
 AKeyboard是一个简单易用的自定义软键盘，利用KeyboardView配合xml来定制键盘内容。（欢迎Star一下）
 ![](Screenshots/Screenshot0.png)![](Screenshots/Screenshot1.png)
 
-## 能做什么？([下载 apk](https://github.com/leguang/ADialog/blob/master/app-debug.apk))
+## 能做什么？([下载 apk](https://github.com/leguang/AKeyboard/blob/master/app/app-release.apk))
 - **对于输入车牌号做了相应的逻辑适配**
 
 ## 如何使用它？
