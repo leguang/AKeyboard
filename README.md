@@ -23,8 +23,8 @@ AKeyboard是一个简单易用的自定义软键盘，利用KeyboardView配合xm
 2. 然后在App目录下的dependencies添加:
 ```
 	dependencies {
-	     //一个扩展性很好的Dialog+DialogFragment工具。
-   		 compile 'com.github.leguang:ADialog:1.9'
+	     //一个自定义车牌输入软键盘。
+   		 compile 'com.github.leguang:AKeyboard:0.0.1'
 	}
 ```
 此时同步一下，即已完成引入。
