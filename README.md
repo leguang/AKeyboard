@@ -1,6 +1,6 @@
 # AKeyboard
 
-[![Release](https://jitpack.io/v/leguang/ADialog.svg)](https://jitpack.io/#leguang/ADialog)
+[![Release](https://jitpack.io/v/leguang/AKeyboard.svg)](https://jitpack.io/#leguang/AKeyboard)
 
 AKeyboard是一个简单易用的自定义软键盘，利用KeyboardView配合xml来定制键盘内容。（欢迎Star一下）
 ![](Screenshots/Screenshot0.png)![](Screenshots/Screenshot1.png)
