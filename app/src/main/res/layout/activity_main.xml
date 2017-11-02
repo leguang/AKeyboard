@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="请输入车牌号"
+        android:letterSpacing="0.5"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0D5D9"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/shape_bg_key"
+        android:keyTextColor="#5E5E5E"
+        android:keyTextSize="18sp"
+        android:labelTextSize="18sp"
+        android:padding="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="0" />
+
+</LinearLayout>
