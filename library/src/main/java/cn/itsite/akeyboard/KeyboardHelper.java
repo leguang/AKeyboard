@@ -97,10 +97,11 @@ public class KeyboardHelper implements KeyboardView.OnKeyboardActionListener {
 
     @Override
     public void onText(CharSequence text) {
-        mTextView.append(text);
+        if (mTextView.length() < maxLength) {
+            mTextView.append(text);
+        }
         if (mTextView.length() >= maxLength) {
             hide();
-            return;
         }
         if (mTextView.length() == 1) {
             if (keys == null) {
